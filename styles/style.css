@@ -27,7 +27,7 @@ p, li {
 
 body {
   width: 600px;
-  height:800px;
+  height:1000px;
   margin: 0 auto;
   background-color: #FF9500;
   padding: 0 20px 20px 20px;
@@ -58,11 +58,16 @@ display:block;
 .Introduction{
   
 height:400px;
-font-family: Arial, sans-serif;
+
 font-size:medium;
 margin-top: 80px;
- 
+font-weight: 100;
 border:3px solid rgb(80, 9, 121);
- 
- 
+font-family:"楷体","楷体_GB2312";
+}
+
+.Reference{
+float:left;
+font-family: 'Open Sans', sans-serif;
+
 }
