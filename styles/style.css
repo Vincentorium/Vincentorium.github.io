@@ -27,14 +27,15 @@ p, li {
 
 body {
   width: 600px;
-  height:1000px;
+  height:2000px;
   margin: 0 auto;
   background-color: #FF9500;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
   
 }
- 
+
+
 img {
   display: block;
   margin: 0 auto;
@@ -47,13 +48,13 @@ img {
   border:3px solid rgb(80, 9, 121);
   border-left-width:-10;
 }
-.submenu li
-{
-  box-sizing: border-box;
+.submenu li{
   float:left;
+  box-sizing: border-box;
+ 
 margin-right :20px;
 list-style-type:none;
-display:block;
+
 }
 .Introduction{
   
@@ -69,5 +70,47 @@ font-family:"楷体","楷体_GB2312";
 .Reference{
 float:left;
 font-family: 'Open Sans', sans-serif;
+border-bottom:1px dotted  #333;
+/*list-style-image:url('../images/check.png');*/
 
+
+}
+
+.block{
+  float:left;
+ 
+  margin-top: 20px;
+  border:1px solid #72009f;
+  padding: 10px;
+  width:33.3%;
+  box-sizing:border-box;
+	
+}
+#main-block{
+  float:left;
+  width:70%;
+  border:darkslategrey 2px solid;
+  box-sizing: border-box;
+
+}
+#sidebar{
+  border:solid 2px #72009f;
+
+  float:right;
+  width:30%;
+  box-sizing: border-box;
+}
+
+.button{
+ 
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+.fix-me{
+	position:fixed;
+	top:400px;
+  left:90px;
+  color: #a80a0a;
 }
